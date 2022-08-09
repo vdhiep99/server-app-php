@@ -1,0 +1,489 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Fixed sidenav, full height */
+
+.menu {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 200px;
+}
+
+
+/* Style the menu links and the dropdown button */
+
+.menu a,
+.dropdown-btn {
+    margin-left: 20px;
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #b4b4b4;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* On mouse-over */
+
+.menu a:hover,
+.dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+
+/* Main content */
+
+.main {
+    height: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+    background: rgb(132, 255, 116);
+    color: rgb(16, 128, 1);
+}
+
+.tieude {
+    text-align: center;
+    line-height: 100px;
+}
+
+.tieude1 {
+    height: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/* Add an active class to the active dropdown button */
+
+.active {
+    background-color: green;
+    color: white;
+}
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding 
+to change the design of the dropdown content */
+
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+
+/* Optional: Style the caret down icon */
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-height: 450px) {
+    .menu {
+        padding-top: 15px;
+    }
+    .menu a {
+        font-size: 18px;
+    }
+}
+
+
+/* thêm mới loại hàng */
+
+.row {
+    width: 80%;
+}
+
+.hop {
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.mb10 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.frmtitle {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #000;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+}
+
+.frmcontent {
+    padding: 20px 0px;
+}
+
+.frmcontent input[type="text"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"] {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(219, 219, 219);
+    border: 1px #ccc solid;
+}
+
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(2) {
+    width: 80%;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(3) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+
+
+/* thêm xóa */
+
+.sua {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: rgb(107, 187, 241);
+    border: 1px #ccc solid;
+}
+
+.sua1 {
+    text-align: center;
+}
+
+.xoa {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: rgb(236, 77, 77);
+    border: 1px #ccc solid;
+}
+
+.xoa1 {
+    text-align: center;
+}
+
+
+/*---------------------------------*/
+
+
+/* phần hàng hóa */
+
+.frmdshanghoa table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdshanghoa table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table th:nth-child(2) {
+    width: 40%;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table th:nth-child(3) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table th:nth-child(4) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table th:nth-child(5) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table th:nth-child(6) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdshanghoa table td {
+    padding: 10px 0px;
+    border: 1px #ccc solid;
+    text-align: center;
+}
+
+
+/* phần thêm và sửa hàng hóa */
+
+.mb11 {
+    margin-bottom: 20px;
+}
+
+.frmcontent1 {
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+.frmcontent1 input[type="text"],
+.frmcontent1 input[type="email"],
+.frmcontent1 input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.frmcontent1 input[type="submit"],
+.frmcontent1 input[type="reset"],
+.frmcontent1 input[type="button"] {
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(219, 219, 219);
+    border: 1px #ccc solid;
+}
+
+.frmcontent1 input[type="submit"]:hover,
+.frmcontent1 input[type="reset"]:hover,
+.frmcontent1 input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.box {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.loai {
+    width: 20%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 10px 0;
+}
+
+.nhap {
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.chon {
+    width: 150px;
+    height: 34px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.OK {
+    width: 50px;
+    height: 34px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.OK:hover {
+    background-color: #ccc;
+}
+
+
+/*---------------------------------------*/
+
+
+/* phần khách hàng */
+
+.frmdskhachhang table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdskhachhang table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table th:nth-child(2) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table th:nth-child(3) {
+    width: 35%;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table th:nth-child(4) {
+    width: 15%;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table th:nth-child(5) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table th:nth-child(6) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdskhachhang table td {
+    padding: 10px 0px;
+    border: 1px #ccc solid;
+    text-align: center;
+}
+
+
+/*---------------------------------------*/
+
+
+/* phần bình luận */
+
+.frmdsbl table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsbl table th:nth-child(1) {
+    width: 10%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmdsbl table th:nth-child(2) {
+    width: 10%;
+    background-color: #ccc;
+}
+
+.frmdsbl table th:nth-child(3) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.frmdsbl table th:nth-child(4) {
+    width: 25%;
+    background-color: #ccc;
+}
+
+.frmdsbl table th:nth-child(5) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmdsbl table th:nth-child(6) {
+    width: 5%;
+    background-color: #ccc;
+}
+
+.frmdsbl table td {
+    padding: 10px 0px;
+    border: 1px #ccc solid;
+    text-align: center;
+}
+
+
+/*---------------------------------------*/
+
+
+/* phần thông kê */
+
+.frmthongke table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmthongke table th:nth-child(1) {
+    width: 15%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmthongke table th:nth-child(2) {
+    width: 15%;
+    background-color: #ccc;
+}
+
+.frmthongke table th:nth-child(3) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmthongke table th:nth-child(4) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmthongke table th:nth-child(5) {
+    width: 20%;
+    background-color: #ccc;
+}
+
+.frmthongke table td {
+    padding: 10px 0px;
+    border: 1px #ccc solid;
+    text-align: center;
+}
+
+.loi {
+    margin-top: 10px;
+    color: red;
+}

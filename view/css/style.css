@@ -1,0 +1,472 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.boxcenter {
+  width: 980px;
+  margin: auto;
+}
+p, h4, li{
+  color: white;
+}
+body {
+  background-image: url("https://inlonggia.com/wp-content/uploads/Background-dep-vector.jpg");
+  background-color: #133131;
+ }
+.header {
+  width: 980px;
+  height: 180px;
+}
+
+.logo {
+  width: 980px;
+  height: 100px;
+  
+}
+
+.anh {
+  width: 250px;
+  height: 100px;
+  padding: 15px 0;
+}
+
+/*phần menu*/
+.menu {
+  width: 980px;
+  height: 50px;
+  background-color: black;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.menu ul {
+  padding: 0px 10px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 15px;
+  line-height: 50px;
+}
+
+.menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: white;
+  
+}
+/*-----------------------------------*/
+
+.footer {
+  width: 980px;
+  background-color: rgb(54, 47, 47);
+  font-size: 0.8vw;
+  color: rgb(248, 241, 241);
+  padding: 20px;
+  clear: both;
+}
+/*--------------------------------------------*/
+.content {
+  width: 980px;
+  height: auto;
+}
+
+/* phần banner và sp */
+.boxtrai {
+  float: left;
+  width: 740px;
+}
+
+
+.row {
+  width: 720px;
+  float: left;
+}
+
+.mb{
+  margin-bottom: 20px;
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  float: left;
+}
+/* ------------------------------- */
+
+/* box sản phẩm */
+.boxsp {
+  float: left;
+  width: 230px;
+  min-height: 300px;
+  border: 1px rgb(202, 202, 202) solid;
+  border-radius: 5px;
+  margin: 0 10px 20px 0;
+}
+
+.boxsp .img {
+  min-height: 200px;
+  text-align: center;
+}
+
+.img img {
+  padding: 10px 0 0 0;
+  height: 200px;
+}
+
+.gia {
+  text-align: center;
+  color:  #ccc;
+}
+
+.ten {
+  padding: 0 2px;
+  text-align: center;
+  font-size: 14px;
+  color:  #ccc;
+}
+.ten a {
+  text-decoration: none;
+  color: #ccc;
+}
+.ten a:hover {
+  color: rgb(80, 78, 78);
+}
+/*--------------------------------------------*/
+
+/* box sản phẩm cùng loại*/
+.boxcungloai {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 180px;
+  padding: 10px 20px 10px 30px;
+}
+
+.boxsp1 {
+  float: left;
+  width: 210px;
+  min-height: 280px;
+  border: 1px rgb(202, 202, 202) solid;
+  border-radius: 5px;
+  margin: 0 12px 10px 0;
+}
+
+.boxsp1 .img1 {
+  min-height: 180px;
+  text-align: center;
+}
+
+.img1 img {
+  padding: 10px 0 0 0;
+  height: 180px;
+}
+
+.gia1 {
+  text-align: center; 
+}
+
+.ten1 {
+  padding: 0 2px;
+  text-align: center;
+  font-size: 14px;
+}
+.ten1 a {
+  text-decoration: none;
+  color:  rgb(247, 239, 239);
+}
+.ten1 a:hover {
+  color: rgb(12, 12, 12);
+}
+/*--------------------------------------------*/
+
+/* box tài khoản*/
+.boxphai {
+  float: left;
+  width: 240px;
+}
+
+.boxtk {
+  width: 240px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.boxtk1 {
+  width: 240px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.boxtitle {
+  color: #000;
+  padding: 10px;
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px #ccc solid;
+  font-size: 16px;
+}
+
+.boxcontent {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+  padding: 10px 20px;
+}
+
+.boxcontent1 {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.nhap {
+  margin: 0 0 10px 0;
+}
+
+.boxcontent2 {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  background-color: #eee;
+}
+
+.boxfooter {
+  padding: 10px;
+  background-color: #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+
+.formtaikhoan {
+  line-height: 150%;
+  font-size: 16px;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"] {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+  border-radius: 5px;
+}
+
+.formtaikhoan .dangnhap {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(230, 230, 230);
+  border: 1px #ccc solid;
+}
+.formtaikhoan .nut {
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(219, 219, 219);
+  border: 1px #ccc solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="reset"]:hover {
+  background-color: #ccc;
+}
+
+.formtaikhoan li a {
+  color:  #ccc;
+  text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+  color: rgb(22, 21, 21);
+}
+
+.box {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px 10px;    
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.mb11 {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+.anhtk{
+  text-align: center;
+}
+/*--------------------------------------------*/
+
+/* menu dọc*/
+.menudoc ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.menudoc ul li {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+.menudoc ul li:hover {
+  background-color: #ccc;
+}
+
+.searbox input[type="text"] {
+  width: 180px;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+
+.top10 {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+.top10 img {
+  width: 30px;
+  height: 35px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+}
+
+.top10 a {
+  color: rgb(250, 239, 239);
+  text-decoration: none;
+}
+
+.top10 a:hover {
+  color: #000;
+}
+
+.link{
+  font-size: 14px;
+}
+/*--------------------------------------------*/
+.ctsp{
+  text-align: center;
+}
+/* nút tìm kiếm */
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+}
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 11px;
+  left: 13px
+}
+.gg-search:hover {
+  color: rgb(100, 100, 100);
+}
+button{
+  width: 25px;
+  height: 25px;
+  border: 0;
+}
+/*--------------------------------------------*/
+/* bình luận */
+.binhluan table{
+  width: 100%;
+  margin-left: 20px;
+}
+.binhluan table td:nth-child(1){
+  width: 55%;
+
+}
+.binhluan table td:nth-child(2){
+  width: 15%;
+
+}
+.binhluan table td:nth-child(3){
+  width: 30%;
+}
+
+.loi{
+  margin-top: 10px;
+  color: red;
+}
+.noidung{
+  width: 580px;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+.gbl{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  border: 1px #ccc solid;
+}
+.gbl:hover{
+  background-color: #ccc;
+}
